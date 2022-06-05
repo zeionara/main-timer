@@ -12,4 +12,11 @@ The source code is kept inside file `app.fla`, which is recommended to open via 
 
 ## Running the app
 
-The compiled version may be launched via `Adobe Flash Player` (file `app.swf`). Since the player is deprecated and currently hard to install separately, it is recommended to run the app as an `exe` file which contains an embedded tool.
+The compiled version may be launched via `Adobe Flash Player` (file `app.swf`). Since the player is deprecated and currently hard to install separately, it is recommended to run the app as an `exe` file which contains an embedded tool.  
+
+The app also works perfectly on `linux` through `wine` (was tested on `Ubuntu 22.04`). All you need to do is to install wine and run the executable using the following commands respectively:
+
+```sh
+sudo apt install wine -y 
+wine release/app.exe
+```
